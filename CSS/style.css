@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap");
+
+body {
+  font-family: "Nanum Gothic Coding", monospace;
+  background-color: #00ced1;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.container .inscription form {
+  max-width: 600px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 6px;
+  background-color: #fff;
+}
+.container .inscription form h2 {
+  padding: 25px;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.container .inscription form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #fa8072;
+  border-radius: 6px;
+}
+.container .inscription form button {
+  width: 100%;
+  font-size: 1.1em;
+  padding: 6px;
+  background-color: #fa8072;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.6s ease-out;
+  border: none;
+  border-radius: 6px;
+}
+.container .inscription form button:hover {
+  background-color: #000;
+  color: #fa8072;
+}
+
+.container .connexion form {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 6px;
+  background-color: #fff;
+}
+.container .connexion form h2 {
+  padding: 25px;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.container .connexion form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #fa8072;
+  border-radius: 6px;
+}
+
+.container .connexion form button {
+  width: 100%;
+  font-size: 1.1em;
+  padding: 6px;
+  background-color: #fa8072;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.6s ease-out;
+  border: none;
+  border-radius: 6px;
+}
+
+.container .connexion form button:hover {
+  background-color: #000;
+  color: #fa8072;
+}
