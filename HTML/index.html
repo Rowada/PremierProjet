@@ -11,6 +11,9 @@
     <section class="container">
       <div class="inscription">
         <form>
+
+          <!--  DIV INSCRIPTION   --> 
+
           <h2>Inscription</h2>
           <label for="name"></label>
           <input type="text" id="name" placeholder="Prénom">
@@ -20,21 +23,28 @@
           <input type="email" id="email" placeholder="Email">
           <label for="password"></label>
           <input type="password" id="password" placeholder="Password">
-          <button class="entrée">Envoyer</button>
+
+          <!--  LA FONCTION INSCRIPTION CE SITUE DANS LE FICHIER FONCTION  --> 
+
+          <button class="entrée" onclick="inscription();">Envoyer</button>
         </form>
       </div>
+
+      <!--   DIV CONNEXION   -->
+
       <div class="connexion">
         <form>
           <h2>Connexion</h2>
           <label for="email"></label>
-          <input type="email" id="email" placeholder="Email">
+          <input type="email" id="emailco" placeholder="Email">
           <label for="password"></label>
-          <input type="password" id="password" placeholder="Password">
-          <button class="entrée">Envoyer</button>
+          <input type="password" id="passwordco" placeholder="Password">
+          <button class="entrée" onclick="connection();">Envoyer</button>
         </form>
       </div>
 
     </section>
-<script src="../JS/index.js"></script>
+    <script src="../JS/fonction.js"></script>
+    <script src="../JS/index.js"></script>
   </body>
 </html>
